@@ -70,3 +70,23 @@ document
     event.preventDefault();
     document.getElementById("task-list").innerHTML = "";
   });
+
+function changeTheme() {
+  const colors = [
+    "bg-[#F4F7FF]",
+    "bg-blue-100",
+    "bg-green-100",
+    "bg-yellow-100",
+    "bg-red-100",
+  ];
+  document.body.className = colors[Math.floor(Math.random() * colors.length)];
+  document.body.classList.add(
+    "poppin-font",
+    "w-full",
+    "bg-cover",
+    "rounded-lg",
+    "bg-center",
+    "border-2",
+    "m-0"
+  );
+}
