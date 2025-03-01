@@ -1,5 +1,6 @@
 document.getElementById("task1").addEventListener("click", function (event) {
   event.preventDefault();
+  alert("Board Updated Successfully");
   taskUpdatedOnClick(
     "task-count-add",
     "task-count-sub",
@@ -10,6 +11,7 @@ document.getElementById("task1").addEventListener("click", function (event) {
 
 document.getElementById("task2").addEventListener("click", function (event) {
   event.preventDefault();
+  alert("Board Updated Successfully");
   taskUpdatedOnClick(
     "task-count-add",
     "task-count-sub",
@@ -20,6 +22,7 @@ document.getElementById("task2").addEventListener("click", function (event) {
 
 document.getElementById("task3").addEventListener("click", function (event) {
   event.preventDefault();
+  alert("Board Updated Successfully");
   taskUpdatedOnClick(
     "task-count-add",
     "task-count-sub",
@@ -30,6 +33,7 @@ document.getElementById("task3").addEventListener("click", function (event) {
 
 document.getElementById("task4").addEventListener("click", function (event) {
   event.preventDefault();
+  alert("Board Updated Successfully");
   taskUpdatedOnClick(
     "task-count-add",
     "task-count-sub",
@@ -40,6 +44,7 @@ document.getElementById("task4").addEventListener("click", function (event) {
 
 document.getElementById("task5").addEventListener("click", function (event) {
   event.preventDefault();
+  alert("Board Updated Successfully");
   taskUpdatedOnClick(
     "task-count-add",
     "task-count-sub",
@@ -50,6 +55,7 @@ document.getElementById("task5").addEventListener("click", function (event) {
 
 document.getElementById("task6").addEventListener("click", function (event) {
   event.preventDefault();
+  alert("Board Updated Successfully");
   taskUpdatedOnClick(
     "task-count-add",
     "task-count-sub",
